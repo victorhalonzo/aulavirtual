@@ -74,7 +74,7 @@ Conexion c=new Conexion();
         Connection con=c.getConnection();
         Statement st=con.createStatement();
    st.execute("update apli_tareas set tarea_ruta='"+cadena+"' where id='"+maxtarea+"'");
-out.write("El archivo se ha subido correctamente amigos a la rama main 6.") ;
+out.write("El archivo se ha subido correctamente amigos a la rama ergerg 6.") ;
 out.println("<br><a href=tareas.jsp>volver</a>");
 }else{
 out.println("No se ha seleccionado ningun archivo");
